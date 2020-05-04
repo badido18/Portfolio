@@ -1,19 +1,20 @@
-import React , {Fragment} from 'react'
+import React , {useState} from 'react'
 import {BrowserRouter as Router,Link,Route,Switch} from 'react-router-dom'
 import Dev from "./Dev"
 import Design from "./Design"
 import devimg from "../assets/imgs/CS.jpg"
 import dgnimg from "../assets/imgs/DN.jpg"
+import Loading from "./LoadingBlack"
+import LoadingO from "./LoadingOrange"
 const Home = () =>  {
-
+    const [Load, setLoad] = useState(true)
     return (
         <Router>
-            <Fragment>
                 <Switch>
                     <Route path = "/">
                         <Link to="/dev" ><div className="Devdiv">                                                    
                             <img alt="" src={devimg} />
-                            <div className="gliding1">
+                            <div >
                                 <h1>Developer</h1>
                                 <h3 >Side</h3>
                             </div>
@@ -21,7 +22,7 @@ const Home = () =>  {
                             <div className="bord1"/></Link>
                         <Link to="/design"><div className="Desdiv"> 
                             <img alt="" src={dgnimg} />
-                            <div  className="gliding2">
+                            <div  >
                                 <h1>DESIGNER</h1>
                                 <h3>Side</h3>
                             </div>
@@ -31,13 +32,18 @@ const Home = () =>  {
                     </Route>
 
                     <Route path="/dev" >
-                        <Dev/>
+                        {
+                            Load ? <Loading/> : null   
+                        } 
+                        <Dev setLoad={setLoad}/> 
                     </Route>
                     <Route path="/design" >
-                        <Design/>
+                        {
+                            Load ? <LoadingO/> : null 
+                        } 
+                        <Design setLoad={setLoad}/>
                     </Route>
                 </Switch>
-            </Fragment>
         </Router>
     )
 }

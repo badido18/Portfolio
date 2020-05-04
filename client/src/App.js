@@ -1,10 +1,10 @@
 import React, { Fragment } from 'react'
-import Home from "./components/Home.js"
+import Dev from "./Pages/Dev.js"
 import './index.css'
 function App() {
   return (
     <Fragment>
-      <Home/>
+      <Dev/>
     </Fragment>
   );
 }
