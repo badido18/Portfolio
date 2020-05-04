@@ -1,0 +1,32 @@
+
+@mixin ButtonBlack()
+  font-family : Hack
+  font-size : 100%
+  background : $Black2
+  border : solid 1px $border  
+  color : white
+  border-radius : 7px
+  width : 120px
+  height : 45px
+  transition : 0.25s ease-in-out
+  &:focus
+    outline : none
+  &:hover
+    cursor : pointer
+    background : $BlackBack 
+    border : solid 4px black
+  &:active
+    background : black
+    transform : scale(0.9) 
+    
+@mixin ButtonGreen()
+  background : $Green
+  border : solid 4px $borderG 
+  &:focus
+    outline : none
+  &:hover
+    cursor : pointer
+    background : $GreenH
+    border : solid 4px $borderG  
+  &:active
+    background : $borderG

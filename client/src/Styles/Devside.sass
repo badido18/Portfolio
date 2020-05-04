@@ -1,0 +1,57 @@
+
+//Dev
+.DevPage
+  font-family : Hack
+  color : white
+  width : 100%
+  .navbar 
+    position : fixed
+    padding-inline-end : 1% 
+    padding-inline-start : 1%
+    background : $Black2
+    height : 150px 
+    width : 100%
+    display : grid
+    grid-template-columns : 25%  auto 10%
+    *
+      margin : auto
+    h1
+      text-align : right 
+      width : 60%
+    .buttons
+      width : 100%
+      display : block
+      margin : auto
+      button
+        margin : 0  1%
+      .Green
+        margin-left : 5%
+    .todesign
+      position : absolute
+      right : 5px
+      top : 34%
+      button 
+        width : 50px
+        background : $Orange
+        border : 0
+        padding-left : 50% 
+        &:hover
+          border : solid 4px $borderO
+          width : 200px
+          padding-left : 0
+          
+        &:active
+          background : $borderO
+           
+  button  
+    @include ButtonBlack()
+  .Green
+    @include ButtonGreen()
+    
+.Container
+  width : 100%
+
+.main
+  width : 100%
+  height : 100vh 
+  .summary

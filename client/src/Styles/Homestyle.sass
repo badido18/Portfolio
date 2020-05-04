@@ -1,0 +1,102 @@
+.bord1
+  clip-path : polygon(44% 0, 46% 0, 56% 100%, 54% 100%);
+  position : absolute
+  top : 0
+  left : 0
+  background : $BlackBack
+  height : 100%
+  width : 100% 
+  overflow : hidden
+  transition : 0.3s 
+.bord2
+  clip-path : polygon(45% 0, 46% 0, 56% 100%, 55% 100%);
+  position : absolute
+  top : 0
+  left : 0
+  background : $Orange
+  height : 100%
+  width : 100% 
+  overflow : hidden
+  transition : 0.3s 
+.Devdiv
+  margin : 0
+  font-family : Hack 
+  position : absolute
+  overflow : hidden
+  left : 0
+  height : 100%
+  width : 100%
+  clip-path : polygon(0 0, 45% 0, 56% 100%, 0% 100%)
+  img
+    width : 100% 
+    overflow : hidden  
+    object-fit : cover
+    filter : blur(5px)
+    transition : 0.3s 
+  div  
+    font-size : 45px
+    position : absolute
+    top : 40%
+    left : 10%
+    margin : auto
+    color : white
+    text-shadow : #0000001f
+    transition : 0.3s 
+    h1
+      margin-top : 0
+      margin-bottom : 0 
+    h3
+      margin-top : 2% 
+      width : 100%
+      text-align : right    
+      font-family : HackL
+  &:hover
+    img
+      transform : scale(1.2)
+      filter : blur(10px)
+    div
+      animation : glide1  3s infinite ease-in-out   
+      transition : 0.3s 
+
+.Desdiv
+  margin : 0
+  font-family : Nexa 
+  position : absolute
+  overflow : hidden
+  right : 0
+  height : 100%
+  width : 100%
+  border-bottom-left-radius : 800px   
+  clip-path : polygon(45% 0, 100% 0, 100% 100%, 55% 100%);
+  img
+    display : block 
+    width : 100% 
+    object-fit : cover 
+    overflow : hidden 
+    filter : blur(5px)   
+    transition : 0.3s
+  div
+    width : 23%
+    font-size : 45px
+    position : absolute
+    top : 40%
+    left : 65%
+    margin : auto
+    color : white
+    text-shadow : #0000001f
+    h1
+      margin-top : 0
+      margin-bottom : 0 
+    h3
+      margin-top : 2% 
+      width : 100%
+      text-align : right 
+      font-family : NexaL
+  &:hover
+    img
+      transform : scale(1.2)
+      filter : blur(10px)
+    div
+      animation : glide2  3s infinite ease-in-out   
+      transition : 0.3s 
+

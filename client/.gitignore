@@ -24,3 +24,6 @@ yarn-error.log*
 
 /src/index.css
 /src/index.css.map
+
+/src/Styles/*.css
+/src/Styles/*.css.map
