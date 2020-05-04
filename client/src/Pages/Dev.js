@@ -12,13 +12,18 @@ const Dev = (props) => {
     return (
         <div className="DevPage">
             <div className="navbar">
-                <h1>Dev Side</h1>
-                <button>Summary</button>
-                <button>Skills</button>
-                <button>Links</button>
-                <button>Projects</button>
-                <button>Carren</button>
-                <button>Contact Me</button>
+                <h1>DEV side</h1>
+                <div className="buttons">
+                    <button>Summary</button>
+                    <button>Skills</button>
+                    <button>Links</button>
+                    <button>Projects</button>
+                    <button>Career</button>
+                    <button className="Green">Contact Me</button>
+                </div>
+                <div className="todesign">
+                    <button>Design</button>
+                </div>
             </div>
             <div className="Container main">
                 <div className="summary">
@@ -49,7 +54,7 @@ const Dev = (props) => {
                 </div>
             </div>
             <div className="Container">
-                <button>Contact Me</button>
+                <button className="Green">Contact Me</button>
             </div>
             <div className="Container">
                 <div className="footer">

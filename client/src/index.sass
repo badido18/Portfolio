@@ -4,6 +4,9 @@ $Black2 : #1E1E1E
 $Green : #02C436
 $Blue : #02527B
 $border : #707070
+$GreenH : #1aa510
+$borderG : #118109
+$borderO : #cc5200
 body
   margin : 0
   background : $BlackBack
@@ -168,18 +171,35 @@ code
 
 @mixin ButtonBlack()
   font-family : Hack
+  font-size : 100%
   background : $Black2
   border : solid 1px $border  
   color : white
   border-radius : 7px
-  width : 150px
-  height : 50px
-  transition : 0.3s ease-in-out
+  width : 120px
+  height : 45px
+  transition : 0.25s ease-in-out
   &:focus
     outline : none
   &:hover
     cursor : pointer
     background : $BlackBack 
+    border : solid 4px black
+  &:active
+    background : black
+    transform : scale(0.9) 
+    
+@mixin ButtonGreen()
+  background : $Green
+  border : solid 4px $borderG  
+  &:focus
+    outline : none
+  &:hover
+    cursor : pointer
+    background : $GreenH
+    border : solid 4px $borderG  
+  &:active
+    background : $borderG
 
   
 
@@ -189,16 +209,46 @@ code
   color : white
   width : 100%
   .navbar 
+    position : fixed
+    padding-inline-end : 1% 
+    padding-inline-start : 1%
     background : $Black2
     height : 150px 
     width : 100%
-    display : flex
-    flex-direction : raw 
-    button 
-      @include ButtonBlack()
-    
+    display : grid
+    grid-template-columns : 25%  auto  10%
+    *
+      margin : auto
+    h1
+      text-align : right 
+      width : 80%
+    .buttons
+      width : 100%
+      display : block
+      margin : auto
+      button
+        margin : 0  2%
+    .todesign
+      position : absolute
+      right : 5px
+      top : 34%
+      button 
+        width : 50px
+        background : $Orange
+        border : 0
+        padding-left : 50% 
+        &:hover
+          border : solid 4px $borderO
+          width : 200px
+          padding-left : 0
+          
+        &:active
+          background : $borderO
+           
   button  
     @include ButtonBlack()
+  .Green
+    @include ButtonGreen()
     
   
 
