@@ -1,18 +1,20 @@
 import React from 'react'
-
+import PL from '../../assets/imgs/PLB.png'
+import phold from '../../assets/imgs/placeholder.png'
+import dz from '../../assets/imgs/dz.png'
 const Main = () => {
     return (
         <div className="Container main">
                 <div className="summary">
                     <div className="imgholder">
-                        <img src="" alt=""/>
-                        <h3>Mohamed Abdelmadjid</h3>
+                        <img src={PL} alt=""/>
+                        <h4>Mohamed Abdelmadjid</h4>
                         <h3>Boudis</h3>
                     </div>
                     <div className="placehold">
-                        <img src="" alt=""/>
-                        <h3>Algeirs, Algeria</h3>
-                        <img src="" alt=""/>
+                        <img src={phold}alt=""/>
+                        <h5>Algeirs, Algeria</h5>
+                        <img src={dz} alt=""/>
                     </div>
                     <div className="badgeBlack">
                         <p>Fullstack <b>Developer</b></p>
