@@ -1,8 +1,15 @@
-import React , {useState, Fragment} from 'react'
+import React , {useState, Fragment , useEffect} from 'react'
 import {Redirect} from 'react-router-dom'
 import devimg from "../assets/imgs/CS.jpg"
 import dgnimg from "../assets/imgs/DN.jpg"
-const Home = () =>  {
+const Home = (props) =>  {
+    const { setLoad } = props
+    useEffect(() => {
+        setLoad(false)
+        return () => {
+            setLoad(true)
+        }
+    }, [setLoad])
     const [redirect, setredirect] = useState(null)
     const SwitchtoDesign = () => {
         setredirect("/des")

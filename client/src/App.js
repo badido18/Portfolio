@@ -24,7 +24,10 @@ function App() {
                             <Design setLoad={setLoad}/>
                         </Route>
                         <Route path = "/">
-                            <Home/>
+                            {
+                                Load ? <LoadingO/> : null 
+                            } 
+                            <Home setLoad={setLoad}/>
                         </Route>
                   </Switch>
       </Router>
