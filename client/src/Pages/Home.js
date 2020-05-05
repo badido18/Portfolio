@@ -11,28 +11,6 @@ const Home = () =>  {
     return (
         <Router>
                 <Switch>
-                        <Route path = "/">
-                            <Link to="/dev">
-                                <div className="Devdiv">                                                    
-                                    <img alt="" src={devimg} />
-                                    <div >
-                                        <h1>Developer</h1>
-                                        <h3 >Side</h3>
-                                    </div>
-                                    </div>
-                                    <div className="bord1"/>
-                            </Link> 
-                            <Link to="/des">
-                                <div className="Desdiv"> 
-                                    <img alt="" src={dgnimg} />
-                                    <div  >
-                                        <h1>DESIGNER</h1>
-                                        <h3>Side</h3>
-                                    </div>
-                                    
-                                    </div>
-                                    <div className="bord2"/>
-                            </Link>
                         <Route path="/dev" >
                             {
                                 Load ? <Loading/> : null   
@@ -46,6 +24,24 @@ const Home = () =>  {
                             <Design setLoad={setLoad}/>
                         </Route>
                         
+                        <Route path = "/">
+                                <div className="Devdiv">                                                    
+                                    <img alt="" src={devimg} />
+                                    <div >
+                                        <h1>Developer</h1>
+                                        <h3 >Side</h3>
+                                    </div>
+                                    </div>
+                                    <div className="bord1"/>
+                                <div className="Desdiv"> 
+                                    <img alt="" src={dgnimg} />
+                                    <div  >
+                                        <h1>DESIGNER</h1>
+                                        <h3>Side</h3>
+                                    </div>
+                                    
+                                    </div>
+                                    <div className="bord2"/>
                         </Route>
                 </Switch>
         </Router>

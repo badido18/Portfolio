@@ -8,40 +8,36 @@
   background : $BlackBack  
   .navbar 
     position : fixed
-    padding-inline-end : 1% 
-    padding-inline-start : 1%
     background : $Black2
-    height : 150px 
+    height : 100px 
     width : 100%
     display : grid
-    grid-template-columns : 25%  auto 10%
+    grid-template-columns : 25%  50%  8% 17%
     *
       margin : auto
     h1
-      text-align : right 
-      width : 60%
+      margin : auto
+      margin-right : 0 
     .buttons
       width : 100%
-      display : block
-      margin : auto
+      display : flex
+      justify-content : center 
+      width : auto
       button
-        margin : 0  1%
-      .Green
-        margin-left : 5%
+        margin : 0 1.5%
+    .Green
+      margin-left : 0 
     .todesign
-      position : absolute
-      right : 5px
-      top : 34%
       button 
-        width : 50px
+        position : fixed
+        top : 30px
+        right : -80px
         background : $Orange
         border : 0
-        padding-left : 50% 
         &:hover
           border : solid 4px $borderO
-          width : 200px
-          padding-left : 0
-          
+          right : -10px
+        
         &:active
           background : $borderO
            
