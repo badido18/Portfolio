@@ -1,8 +1,14 @@
-import React from 'react'
+import React,{useState} from 'react'
+import {Redirect} from 'react-router-dom'
 
 const Navbar = () => {
+    const [redirect, setredirect] = useState(null)
+    const SwitchtoDesign = () => {
+        setredirect("/")
+    }
     return (
-        <div className="navbar">
+        redirect ? <Redirect to={redirect}/>
+        : <div className="navbar">
                 <h1>DEV side</h1>
                     <div className="buttons">                       
                         <button>Summary</button>
@@ -13,7 +19,7 @@ const Navbar = () => {
                     </div>
                 <button className="Green">Contact Me</button>
                 <div className="todesign">
-                    <button>Design</button>
+                    <button onClick={SwitchtoDesign}>Design</button>
                 </div>
         </div>
     )
