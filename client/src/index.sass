@@ -2,12 +2,13 @@
 //imports
 @import './Styles/Annimations'
 @import './Styles/Buttons'
+@import './Styles/Fonts'
 @import './Styles/Colors'
 @import './Styles/Scrollbar'
 @import './Styles/Homestyle'
-@import './Styles/Devside'
+@import './Styles/navbar'
 @import './Styles/loading'
-@import './Styles/Fonts'
+@import './Styles/main'
 
 body
   margin : 0
@@ -20,135 +21,9 @@ code
 
 //after to be moved to seperated file
 
-$ContBlack : #202020
-$ContBorder : #161616    
-
 
 .Container
   width : 100%
 
 
-@mixin Contain()
-  background : $ContBlack
-  border : solid 0.4vh $ContBorder 
-  border-radius : 2vh
-  
-.Title
-  position : relative
-  top : 0
-  left : 0
-  width : auto
-  font-size : 5vh
-  animation : glide1 3s ease-in-out infinite
-.main
-  width : 100%
-  height : 100vh 
-  display : grid
-  grid-template-columns : 30% auto 20%  
-  .summary
-    font-size : 2vh
-    margin : auto
-    @include Contain()
-    width : 50%
-    height : 60%
-    margin-right : 0
-    .imgholder
-      width : 100%
-      img
-        width : 100%
-      h4
-        position : relative 
-        top : -10vh
-        font-family : Hack 
-        width : 100%
-        text-align : center
-        margin-bottom : 5%
-      h3
-        position : relative 
-        top : -10vh
-        width : 90%
-        text-align : right
-        margin-top : 0
-    .placehold
-      position : relative 
-      top : -10vh
-      display : flex
-      margin : auto
-      width : 100%
-      img 
-        height : 2vh
-        margin : auto
-    .badgeBlack
-      position : relative 
-      top : -10vh
-      background : black
-      border : solid 0.3vh $border 
-      border-radius : 1vh
-      width : 80%
-      margin : auto
-      margin-bottom : 3%
-      p
-        text-align : center
-        margin : 2%
-    .badgeGreen
-      position : relative 
-      top : -10vh
-      background : $Green
-      border : solid 0.3vh $borderG 
-      border-radius : 1vh 
-      width : 80%
-      margin : auto
-      margin-bottom : 2%
-      p
-        text-align : center
-        margin : 2%
-    .Title
-      position : relative 
-      top : -10vh
-      left : 12vh
-  .bio
-    margin : auto
-    @include Contain()
-    width : 100%
-    height : 60%
-    margin-left : 10%
-    .bioctn
-      width : 85%
-      height : 100%
-      margin :  auto 
-      display : grid
-      grid-template-rows : 25% 40% 25% 10%
-      h1
-        font-size : 4vh
-        margin-top : auto
-      .textp
-        font-size : 2.5vh
-        display : flex
-        text-align : left
-        margin-top : auto
-        line-height : 200% 
-        font-family : HackL
-        font-weight : light  
-      .cardholder
-        display : flex
-        width : 95%
-        animation : float  5s infinite ease-in-out
-        .card
-          background : black
-          width :  11vh
-          height : 6vh
-          border-radius : 5px
-          text-align : center
-          margin : auto
-          padding : auto 
-          p
-            font-size :  1.9vh
-      .sub
-        text-align : center
-        margin : auto
-        font-size :  1.5vh
-    .Title
-      position : relative 
-      top : -6vh
-      left : 90vh
 

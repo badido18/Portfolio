@@ -13,14 +13,14 @@ const Main = () => {
                     </div>
                     <div className="placehold">
                         <img src={phold}alt=""/>
-                        <h5>Algeirs, Algeria</h5>
+                        <h5>Algiers, Algeria</h5>
                         <img src={dz} alt=""/>
                     </div>
                     <div className="badgeBlack">
-                        <p>Fullstack <b>Developer</b></p>
+                        <p>Fullstack Developer</p>
                     </div>
                     <div className="badgeBlack">
-                        <p>Status <b>Student</b></p>
+                        <p>CS Student</p>
                     </div>
                     <div className="badgeGreen">
                         <p><b>Hireable</b></p>
