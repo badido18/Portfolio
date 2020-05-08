@@ -28,34 +28,33 @@ const Main = () => {
                     <h1 className="Title">Summary</h1>
                 </div>
                 <div className="bio">
-                    <h1>Hi,</h1>
-                    <p className="textp">I am a CS ethisiast and programmer,<br/>
-                        I like programming and leaning new stuff <br/>
-                        here bellow y can find some of my occupations<br/>
-                        and things i like to do on my daily life <br/>
-                    </p>
-                    <div className="cardholder">
-                        <div className="card">
-                            <p>Coding</p>  
+                    <div className="bioctn">
+                        <h1>Hi,</h1>
+                        <p className="textp">I am a CS ethisiast and programmer,<br/>
+                            I like programming and leaning new stuff <br/>
+                            here bellow you can find some of my occupations<br/>
+                            and things I like to do on my daily life <br/>
+                        </p>
+                        <div className="cardholder">
+                            <div className="card">
+                                <p>Coding</p>  
+                            </div>
+                            <div className="card">
+                                <p>Design</p> 
+                            </div>
+                            <div className="card">
+                                <p>Gaming</p>    
+                            </div>
+                            <div className="card">
+                                <p>Football</p>  
+                            </div>
+                            <div className="card">
+                                <p>Music</p> 
+                            </div>
                         </div>
-                        <div className="card">
-                            <p>Design</p> 
+                        <div className="sub">
+                            <p>Learn more about me bellow</p>
                         </div>
-                        <div className="card">
-                            <p>Gaming</p>    
-                        </div>
-                        <div className="card">
-                            <p>Football</p>  
-                        </div>
-                        <div className="card">
-                            <p>Music</p> 
-                        </div>
-                        <div className="card">
-                            <p>Design</p>  
-                        </div>
-                    </div>
-                    <div className="sub">
-                        <p>Learn more about me bellow</p>
                     </div>
                     <h1 className="Title">Bio</h1>
                 </div>
