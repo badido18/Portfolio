@@ -10,9 +10,8 @@ const Dev = (props) => {
     const transformNav = ()=>  document.getElementById("navbar").classList.add("navbarto");
     const resetNav = ()=>  document.getElementById("navbar").classList.remove("navbarto");
     const handlescroll = (event) => {
-        if (window.pageYOffset > 0){
+        if (window.pageYOffset > 0)
             transformNav()
-        }  
         else
             resetNav()
     }

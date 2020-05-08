@@ -4,8 +4,7 @@ const Skills = () => {
     return (
         <div className="Container">
                 <div className="Skills">
-                    <img src="" alt=""/>
-                    <div className="1">
+                    <div className="one">
                         <div className="litleholder">
                             <h1>Soft Skills</h1>
                             <p>
@@ -19,24 +18,24 @@ const Skills = () => {
                             <div className="lngholder">
                                 <h1>English</h1>
                                 <div className="badgeGreen">
-                                    Fluent
+                                    <p>Fluent</p> 
                                 </div>
                             </div>
                             <div className="lngholder">
                                 <h1>French</h1>
                                 <div className="badgeBlue">
-                                    Native
+                                    <p>Native</p>
                                 </div>
                             </div>
                             <div className="lngholder">
                                 <h1>Arabic</h1>
                                 <div className="badgeBlue">
-                                    Native
+                                    <p>Native</p>
                                 </div>
                             </div>
                         </div>
                     </div >
-                    <div className="2">
+                    <div className="two">
                         <h1>Programing<br/>Languages</h1>
                         <div className="lvlholder">
                             <h1>beginner</h1>
@@ -51,7 +50,7 @@ const Skills = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="3">
+                    <div className="three">
                         <div className="hackerrankbagesholder">
                             <img src="" alt=""/>
                         </div>

@@ -21,9 +21,54 @@ code
 
 //after to be moved to seperated file
 
-
 .Container
+  width : 135vh
+  margin : auto
+
+.Skills
+  @include Contain()
   width : 100%
+  max-height : 60vh
+  margin : auto
+  display : grid
+  grid-template-columns : auto auto auto
+  font-size : 1.8vh
+  .one
+    margin : auto
+    display : flex
+    width : 100%
+    flex-direction : column
+    .litleholder
+      width : 30vh
+      height : 25vh 
+      margin : auto
+      display : flex
+      flex-direction : column 
+      @include Contain()
+      .lngholder
+        width : 100%
+        margin : auto
+        display : flex
+        h1
+          font-size : 100% 
 
+      
+  .two
 
+  .three 
+  
 
+.badgeGreen
+  @include GreenBadge()
+  width : 8vh
+  p
+    margin : auto
+    text-align : center
+.badgeBlue
+  @include GreenBadge()
+  background : $LightBlue
+  border : $Blue 0.3vh solid
+  width : 8vh
+  p
+    margin : auto
+    text-align : center
