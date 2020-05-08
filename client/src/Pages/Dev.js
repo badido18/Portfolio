@@ -1,4 +1,4 @@
-import React , {useEffect}  from 'react'
+import React , {useEffect }  from 'react'
 import Nav from '../components/dev/Navbar'
 import Main from '../components/dev/Main'
 import Skills from '../components/dev/Skills'
@@ -7,14 +7,27 @@ import Career from '../components/dev/Career'
 import Links from '../components/dev/Links'
 const Dev = (props) => {
     const { setLoad } = props
+    const transformNav = ()=>  document.getElementById("navbar").classList.add("navbarto");
+    const resetNav = ()=>  document.getElementById("navbar").classList.remove("navbarto");
+    const handlescroll = (event) => {
+        if (window.pageYOffset > 0){
+            transformNav()
+        }  
+        else
+            resetNav()
+    }
     useEffect(() => {
         setLoad(false)
+        window.addEventListener('scroll', handlescroll)
         return () => {
+            window.removeEventListener('scroll', handlescroll);
             setLoad(true)
         }
     }, [setLoad])
+
+
     return (
-        <div className="DevPage">
+        <div className="DevPage" >
             <Nav/>
             <Main/>
             <Skills/>

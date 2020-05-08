@@ -29,29 +29,29 @@ const Main = () => {
                 </div>
                 <div className="bio">
                     <h1>Hi,</h1>
-                    <p>I am a CS ethisiast and programmer,<br/>
+                    <p className="textp">I am a CS ethisiast and programmer,<br/>
                         I like programming and leaning new stuff <br/>
                         here bellow y can find some of my occupations<br/>
                         and things i like to do on my daily life <br/>
                     </p>
-                    <div className="carddholder">
+                    <div className="cardholder">
                         <div className="card">
-                            Coding
+                            <p>Coding</p>  
                         </div>
                         <div className="card">
-                            Design
+                            <p>Design</p> 
                         </div>
                         <div className="card">
-                            Gaming  
+                            <p>Gaming</p>    
                         </div>
                         <div className="card">
-                            Football
+                            <p>Football</p>  
                         </div>
                         <div className="card">
-                            Music
+                            <p>Music</p> 
                         </div>
                         <div className="card">
-                            Design
+                            <p>Design</p>  
                         </div>
                     </div>
                     <div className="sub">

@@ -8,7 +8,7 @@ const Navbar = () => {
     }
     return (
         redirect ? <Redirect to={redirect}/>
-        : <div className="navbar">
+        : <div id="navbar" className="navbar" >
                 <h1>DEV side</h1>
                     <div className="buttons">                       
                         <button>Summary</button>

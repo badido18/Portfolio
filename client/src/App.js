@@ -25,7 +25,7 @@ function App() {
                         </Route>
                         <Route path = "/">
                             {
-                                Load ? <LoadingO/> : null 
+                                Load ? <Loading/> : null 
                             } 
                             <Home setLoad={setLoad}/>
                         </Route>
