@@ -8,6 +8,13 @@ import css from '../../assets/imgs/Groupe 27.png'
 import c from '../../assets/imgs/Groupe 19.png'
 import java from '../../assets/imgs/Groupe 23.png'
 import cpp from '../../assets/imgs/Groupe 21.png'
+
+import rect from '../../assets/imgs/Groupe 30.png'
+import node from '../../assets/imgs/Groupe 29.png'
+import sql from '../../assets/imgs/Groupe 44.png'
+import mdb from '../../assets/imgs/Groupe 45.png'
+import saas from '../../assets/imgs/Groupe 47.png'
+
 const Skills = () => {
     return (
         <div className="Container">
@@ -127,10 +134,20 @@ const Skills = () => {
                     </div>
                     <div className="three">
                         <div className="hackerrankbagesholder">
-                            <img src={hck} alt=""/>
+                            <h1>Hackerank<br/>badges</h1>
+                            <div className="imgctn">
+                                <img src={hck} alt=""/>
+                            </div>
                         </div>
                         <div className="framworkholder">
-                            <img src="" alt=""/>
+                            <h1>Frameworks</h1>
+                            <div className="imgctn">
+                                <img src={rect} alt=""/>
+                                <img src={node} alt=""/>
+                                <img src={saas} alt=""/>
+                                <img src={sql} alt=""/>
+                                <img src={mdb} alt=""/>
+                            </div>
                         </div>
                         <h1 className="Title">Skills</h1>
                     </div>
