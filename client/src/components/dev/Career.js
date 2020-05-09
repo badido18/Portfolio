@@ -3,7 +3,7 @@ import React from 'react'
 const Career = () => {
     return (
         <div className="Container">
-                <div className="Carrer">
+                <div className="Career">
                     <img src="" alt=""/>
                     <div className="accordion">
                         <button className="accordionbutton">

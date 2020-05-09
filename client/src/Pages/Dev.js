@@ -33,10 +33,9 @@ const Dev = (props) => {
             <Projects/>
             <Career/>
             <Links/>
-            <div className="Container">
+            <div className="contct">
                 <button className="Green">Contact Me</button>
             </div>
-            <div className="Container">
                 <div className="footer">
                     <button>Back Home</button>
                     <p>
@@ -45,7 +44,6 @@ const Dev = (props) => {
                     </p>
                     <button>Back to top</button>
                 </div>
-            </div>
         </div>
     )
 }
