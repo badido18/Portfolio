@@ -1,7 +1,13 @@
 import React from 'react'
 import hck from '../../assets/imgs/hackerank badges.png'
 import py from '../../assets/imgs/Groupe 17.png'
-
+import js from '../../assets/imgs/Groupe 16.png'
+import go from '../../assets/imgs/Groupe 28.png'
+import html from '../../assets/imgs/Groupe 26.png'
+import css from '../../assets/imgs/Groupe 27.png'
+import c from '../../assets/imgs/Groupe 19.png'
+import java from '../../assets/imgs/Groupe 23.png'
+import cpp from '../../assets/imgs/Groupe 21.png'
 const Skills = () => {
     return (
         <div className="Container">
@@ -48,12 +54,76 @@ const Skills = () => {
                         <div className="plngholder">
                             <img src={py} alt=""/>
                             <div className="progressbar">
-                                <div className="bar" style={{"background" : "green" }}/>
-                                <div className="bar" style={{"background" : "green" }}/>
-                                <div className="bar" style={{"background" : "green" }}/>
-                                <div className="bar" style={{"background" : "green" }}/>
+                                <div className="bar" style={{"background" : "#02C436" }}/>
+                                <div className="bar" style={{"background" : "#02C436" }}/>
+                                <div className="bar" style={{"background" : "#02C436" }}/>
+                                <div className="bar" style={{"background" : "#02C436" }}/>
                             </div>
                         </div>
+                        <div className="plngholder">
+                            <img src={js} alt=""/>
+                            <div className="progressbar">
+                                <div className="bar" style={{"background" : "#02C436" }}/>
+                                <div className="bar" style={{"background" : "#02C436" }}/>
+                                <div className="bar" style={{"background" : "#02C436" }}/>
+                                <div className="bar" style={{"background" : "gray" }}/>
+                            </div>
+                        </div>
+                        <div className="plngholder">
+                            <img src={go} alt=""/>
+                            <div className="progressbar">
+                                <div className="bar" style={{"background" : "#02C436" }}/>
+                                <div className="bar" style={{"background" : "#02C436" }}/>
+                                <div className="bar" style={{"background" : "#02C436" }}/>
+                                <div className="bar" style={{"background" : "gray" }}/>
+                            </div>
+                        </div>
+                        <div className="plngholder">
+                            <img src={java} alt=""/>
+                            <div className="progressbar">
+                                <div className="bar" style={{"background" : "#02C436" }}/>
+                                <div className="bar" style={{"background" : "#02C436" }}/>
+                                <div className="bar" style={{"background" : "#02C436" }}/>
+                                <div className="bar" style={{"background" : "#02C436" }}/>
+                            </div>
+                        </div>
+                        <div className="plngholder">
+                            <img src={c} alt=""/>
+                            <div className="progressbar">
+                                <div className="bar" style={{"background" : "#02C436" }}/>
+                                <div className="bar" style={{"background" : "#02C436" }}/>
+                                <div className="bar" style={{"background" : "#02C436" }}/>
+                                <div className="bar" style={{"background" : "#02C436" }}/>
+                            </div>
+                        </div>
+                        <div className="plngholder">
+                            <img src={cpp} alt=""/>
+                            <div className="progressbar">
+                                <div className="bar" style={{"background" : "#02C436" }}/>
+                                <div className="bar" style={{"background" : "#02C436" }}/>
+                                <div className="bar" style={{"background" : "gray" }}/>
+                                <div className="bar" style={{"background" : "gray" }}/>
+                            </div>
+                        </div>
+                        <div className="plngholder">
+                            <img src={css} alt=""/>
+                            <div className="progressbar">
+                                <div className="bar" style={{"background" : "#02C436" }}/>
+                                <div className="bar" style={{"background" : "#02C436" }}/>
+                                <div className="bar" style={{"background" : "#02C436" }}/>
+                                <div className="bar" style={{"background" : "#02C436" }}/>
+                            </div>
+                        </div>
+                        <div className="plngholder">
+                            <img src={html} alt=""/>
+                            <div className="progressbar">
+                                <div className="bar" style={{"background" : "#02C436" }}/>
+                                <div className="bar" style={{"background" : "#02C436" }}/>
+                                <div className="bar" style={{"background" : "#02C436" }}/>
+                                <div className="bar" style={{"background" : "#02C436" }}/>
+                            </div>
+                        </div>
+
                     </div>
                     <div className="three">
                         <div className="hackerrankbagesholder">
