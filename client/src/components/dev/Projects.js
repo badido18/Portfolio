@@ -7,7 +7,7 @@ const Projects = () => {
     return (
         <div className="Container li">
                 <div className="Projects">
-                    <div className="slider">
+                    <div id="slider" className="slider" >
                         <div className="repoholder">
                             <p>Task Manager and Cleaner</p>
                             <img src={TMC} alt=""/>
