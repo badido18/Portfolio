@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.5160f9f2.chunk.css",
+    "main.js": "/portfolio/static/js/main.534dc52b.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.534dc52b.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.f869d034.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.f869d034.js.map",
+    "static/js/2.e1a9c236.chunk.js": "/portfolio/static/js/2.e1a9c236.chunk.js",
+    "static/js/2.e1a9c236.chunk.js.map": "/portfolio/static/js/2.e1a9c236.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.2685e1165fa5935d56c4b52f1646b522.js": "/portfolio/precache-manifest.2685e1165fa5935d56c4b52f1646b522.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.5160f9f2.chunk.css.map": "/portfolio/static/css/main.5160f9f2.chunk.css.map",
+    "static/js/2.e1a9c236.chunk.js.LICENSE.txt": "/portfolio/static/js/2.e1a9c236.chunk.js.LICENSE.txt",
+    "static/media/APPS2EE.png": "/portfolio/static/media/APPS2EE.bc541ff4.png",
+    "static/media/AT.png": "/portfolio/static/media/AT.6e0741c4.png",
+    "static/media/Bean Eater.svg": "/portfolio/static/media/Bean Eater.ebaa8999.svg",
+    "static/media/CS.jpg": "/portfolio/static/media/CS.e5670bce.jpg",
+    "static/media/DN.jpg": "/portfolio/static/media/DN.b64bd5ee.jpg",
+    "static/media/index.css": "/portfolio/static/media/Nexa Light.12108809.otf",
+    "static/media/LinkedIN.svg": "/portfolio/static/media/LinkedIN.b5c7ec0a.svg",
+    "static/media/PLB.png": "/portfolio/static/media/PLB.1b1c3c5a.png",
+    "static/media/Rolling.svg": "/portfolio/static/media/Rolling.248d4c36.svg",
+    "static/media/TMC.png": "/portfolio/static/media/TMC.e848c8c9.png",
+    "static/media/github-1.svg": "/portfolio/static/media/github-1.7fb4e55f.svg",
+    "static/media/github-2.svg": "/portfolio/static/media/github-2.354dda91.svg",
+    "static/media/hackerank badges.png": "/portfolio/static/media/hackerank badges.72e43c2f.png",
+    "static/media/hackerrank.svg": "/portfolio/static/media/hackerrank.6b01993d.svg",
+    "static/media/hackrrank.svg": "/portfolio/static/media/hackrrank.ac614cfa.svg",
+    "static/media/linkedin-icon-2.svg": "/portfolio/static/media/linkedin-icon-2.957f0727.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f869d034.js",
+    "static/js/2.e1a9c236.chunk.js",
+    "static/css/main.5160f9f2.chunk.css",
+    "static/js/main.534dc52b.chunk.js"
+  ]
+}
