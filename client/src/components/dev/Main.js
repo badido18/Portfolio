@@ -4,7 +4,8 @@ import phold from '../../assets/imgs/placeholder.png'
 import dz from '../../assets/imgs/dz.png'
 const Main = () => {
     return (
-        <div className="main">
+        <div className="maincontainer">
+            <div className="main">
                 <div className="summary">
                     <div className="imgholder">
                         <img src={PL} alt=""/>
@@ -59,6 +60,8 @@ const Main = () => {
                     <h1 className="Title">Bio</h1>
                 </div>
             </div>
+        
+        </div>
     )
 }
 
