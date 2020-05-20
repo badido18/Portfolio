@@ -27,7 +27,7 @@ const Projects = () => {
                     </div>
                     <p className="sub">Click to access my github repository</p>
                 </div>
-                <h1 className="Title">Projects</h1>
+                <h1 className="Title ttt">Projects</h1>
             </div>
     )
 }

@@ -39,7 +39,7 @@ const Dev = (props) => {
                 <div className="footer">
                     <button>Back Home</button>
                     <p>
-                        This wesbsite was made by Mohamed Abdelmadjid Boudis <br/> 
+                        This wesbsite was made by Mohamed Abdelmadjid Boudis
                         MIT License @2020 / find on github @badido18
                     </p>
                     <button>Back to top</button>

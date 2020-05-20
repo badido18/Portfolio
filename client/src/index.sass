@@ -25,172 +25,81 @@ code
 //after to be moved to seperated file
 
 .Container
-  width : 70%
-  height : 80vh
-  margin : auto
+  width : 100%
+  height : 100%
+  display : flex
+  flex-direction : column 
+  align-items : center
+  justify-content : center
   user-select : none
 
 
 .badgeGreen
   @include GreenBadge()
-  width : 8vh
+  width : 85px
   p
     margin : auto
     text-align : center
 .badgeBlue
   @include GreenBadge()
   background : $LightBlue
-  border : $Blue 0.3vh solid
-  width : 8vh
+  border : $Blue 2px solid
+  width : 85px
   p
     margin : auto
     text-align : center
 
 
-.Career
-  @include Contain()
-  width : 100%
-  height : 65vh
-  margin : auto
-
 .contct
-  height : 10vh
+  height : 100%
   display : flex
   width : 100% 
   margin : auto
+  margin-top : 5%
+  margin-bottom : 5%
   *
     margin : auto
     animation : 3s float infinite ease-in-out
 .footer
   width : 100%
-  height : 10vh
+  height : 100%
   background : black
   display : flex
-  font-size : 1.8vh
+  padding-top : 1%
+  padding-bottom : 1%
+  font-size : 100%
   *
     margin : auto 
   p
     color : gray
-    font-size : 85% 
+    font-size : 89% 
     text-align : center
     font-family : HackL 
     margin-left :  0
     margin-right :  0
 
-
-.maincontainer
-  width : 100%
-  height : 100%
-  display : flex
-  align-items : center
-  justify-content : center
-.main
+.Career
+  @include Contain()
   width : 1200px
-  height : 700px
-  margin-top : 5%
-  margin-bottom : 5%
+  height : 100%
+  margin-bottom : 8%
   display : flex
-  flex-wrap : wrap 
-  .summary
-    font-size : 100%
-    margin : auto
-    @include Contain()
-    width : 250px
-    height : 500px
-    
-    .imgholder
-      width : 100% 
-      height : 50%
-      img
-        width : 100%
-        object-fit : cover
-      h4
-        position : relative 
-        top : -30%
-        font-family : Hack 
-        width : 100%
-        text-align : center
-        margin-bottom : 5%
-      h3
-        position : relative 
-        top : -30%
-        width : 90%
-        text-align : right
-        margin-top : 0
-    .placehold
-      display : flex
-      margin : auto
-      width : 100%
-      img 
-        height : 100%
-        margin : auto
-    .badgeBlack
-      background : black
-      border : solid 3px $border 
-      border-radius : 10px
-      width : 80%
-      margin : auto
-      margin-bottom : 3%
-      p
-        text-align : center
-        margin : 2%
-    .badgeGreen
-      @include GreenBadge()
-      width : 80%
-      margin : auto
-      margin-bottom : 2%
-      p
-        text-align : center
-        margin : 2%
-    .Title
-      position : relative 
-      top : 5%
-      left : 40%
-  .bio
-    margin : auto
-    @include Contain()
+  flex-direction : column 
+  align-items : top 
+  padding-top : 2%
+  padding-bottom : 2% 
+  font-size : 60% 
+  .accordion
     width : 100%
-    width : 800px
-    height : 500px
-    margin-left : 10%
-    .bioctn
-      width : 85%
-      height : 100%
-      margin :  auto 
-      display : grid
-      grid-template-rows : 25% 40% 25% 10%
-      h1
-        font-size : 200%
-        margin-top : auto
-      .textp
-        font-size : 125%
-        display : flex
-        text-align : left
-        margin-top : auto
-        line-height : 250% 
-        font-family : HackL 
-      .cardholder
-        display : flex
-        width : 95%
-        animation : zoomin  2s infinite ease-in-out
-        .card
-          background : black
-          width :  15%
-          height : 40%
-          border-radius : 5px
-          text-align : center
-          margin : auto
-          padding : auto 
-          p
-            font-size : 95%
-            vertical-align : middle 
-      .sub
-        text-align : center
-        margin : auto
-        font-size :  80%
-        animation : showside  2s infinite linear
-        animation-delay : 5s 
-    .Title
-      position : relative 
-      top : -11%
-      left : 95%
+    .accordionbutton
+      width : 100%
+      height : 8%
+      background : $LightBlack
+      display : flex
+      width : auto 
+      img
+        object-fit : cover
+        height : 30px 
+    .accordpanel
+      display : none
+      height : auto

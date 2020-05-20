@@ -14,23 +14,28 @@
     backdrop-filter : blur(10px)
     height : 100px
     width : 100%
-    display : grid
-    grid-template-columns : 25%  50%  10% 15%
-    *
-      margin : auto
-    h1
-      transition : 0.25s ease-in-out
-      margin : auto
-      margin-right : 0 
-    .buttons
+    display : flex
+    align-items : center
+    justify-content : center  
+    .navcontent
+      display : grid
+      grid-template-columns : auto auto auto
       width : 100%
-      display : flex
-      justify-content : center 
-      width : auto
-      button
-        margin : 0 1.5%
-    .Green
-      margin-left : 0 
+      *
+        margin : auto
+      h1
+        transition : 0.25s ease-in-out
+        margin : auto
+        margin-right : 0 
+      .buttons
+        width : 100%
+        display : flex
+        justify-content : center 
+        width : auto
+        button
+          margin : 0 1.5%
+      .Green
+        margin-left : 0 
     .todesign
       button 
         position : fixed
