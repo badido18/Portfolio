@@ -9,20 +9,20 @@ const Projects = () => {
                 <div className="Projects">
                     <div  className="slider" >
                         <div onClick={()=> window.open("https://github.com/badido18/Task-manager-and-cleaner", "_blank")} className="repoholder">
-                            <p>Task Manager and Cleaner</p>
+                            <p><br/><br/><br/><br/><br/><br/> Task Manager and Cleaner <br/><br/></p>
                             <img src={TMC} alt=""/>
                         </div>
                         <div onClick={()=> window.open("https://github.com/badido18/Algerian-Threads-Website", "_blank")} className="repoholder">
                             <img src={AT} alt=""/>
-                            <p>Algerian Threads</p>
+                            <p><br/><br/><br/><br/><br/><br/> Algerian Threads</p>
                         </div>
                         <div onClick={()=> window.open("https://github.com/badido18/My-Lists-Web", "_blank")} className="repoholder">
                             <img src={LI} alt=""/>
-                            <p>My Lists</p>
+                            <p><br/><br/><br/><br/><br/><br/> My Lists</p>
                         </div>
                         <div onClick={()=> window.open("https://github.com/badido18/AppS2EE2019", "_blank")} className="repoholder">
                             <img src={AP} alt=""/>
-                            <p>APP S2EE</p>
+                            <p><br/><br/><br/><br/><br/><br/> APP S2EE</p>
                         </div>
                     </div>
                     <p className="sub">Click to access my github repository</p>
