@@ -22,11 +22,11 @@ const Career = () => {
             document.getElementById("last").style.maxHeight = "auto"
     }, [])
     return (
-        <div className="Container li">
+        <div className="Container li" id="Career">
                 <div className="Career">
                     <div className="accordion">
                         <div className="accordionbutton">
-                            <h1 className="ti">2017</h1>
+                            <div className="ti"> <h1>2017</h1></div>
                             <img src={esi} alt=""/>
                             <h1 className="tit">Ecole nationale supérieure d'informatique Algiers</h1>
                             <img src={da} alt=""/>
@@ -41,7 +41,7 @@ const Career = () => {
                     </div>
                     <div className="accordion">
                         <div className="accordionbutton">
-                            <h1 className="ti">2017</h1>
+                            <div className="ti"> <h1>2017</h1></div>
                             <img src={etic} alt=""/>
                             <h1 className="tit">ETIC CLUB</h1>
                             <img src={da} alt=""/>
@@ -50,14 +50,15 @@ const Career = () => {
                             <p>
                                 A Student club joined in 2017 being freshman i learned a lot of soft skills and team working, <br/>
                                 the club is centered to entrepreneurship and company topics , where a lot of events were <br/>
-                                organized every year ( checkout the <a href="www.etic-club.net" style={{"textDecoration" : "none" , "color" : "gray"}}>website</a>) being part of the organization <br/>
+                                organized every year ( checkout the <a href="http://                                                                etic-club.net" style={{"textDecoration" : "none" , "color" : "black"}}>website</a>)
+                                being part of the organization <br/>
                                 i worked on Designs, Companies Contacts and much more !
                             </p>
                         </div>
                     </div>
                     <div className="accordion">
                         <div className="accordionbutton">
-                            <h1 className="ti">2019</h1>
+                            <div className="ti"> <h1>2019</h1></div>
                             <img src={shell} alt=""/>
                             <h1 className="tit">Shellmates CLUB</h1>
                             <img src={da} alt=""/>

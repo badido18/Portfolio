@@ -9,7 +9,7 @@ import Intxt from '../../assets/imgs/LinkedIN.svg'
 
 const Links = () => {
     return (
-        <div className="Container li">
+        <div className="Container li" id="Links">
                 <div className="Links">
                     <button  className="link">
                         <img className="Linkogo" src={hkrlogo} alt=""/>

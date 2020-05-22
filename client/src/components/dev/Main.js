@@ -4,7 +4,7 @@ import phold from '../../assets/imgs/placeholder.png'
 import dz from '../../assets/imgs/dz.png'
 const Main = () => {
     return (
-        <div className="maincontainer">
+        <div className="maincontainer" id="Summary">
             <div className="main">
                 <div className="summary">
                     <div className="imgholder">

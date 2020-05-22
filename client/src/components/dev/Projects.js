@@ -5,7 +5,7 @@ import TMC from '../../assets/imgs/TMC.png'
 import LI from '../../assets/imgs/MyLists.png'
 const Projects = () => {
     return (
-        <div className="Container li">
+        <div className="Container li" id="Projects">
                 <div className="Projects">
                     <div  className="slider" >
                         <div className="repoholder">

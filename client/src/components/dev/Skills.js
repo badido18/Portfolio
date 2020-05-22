@@ -17,7 +17,7 @@ import saas from '../../assets/imgs/Groupe 47.png'
 
 const Skills = () => {
     return (
-        <div className="Container">
+        <div className="Container" id="Skills">
                 <div className="Skills">
                     <div className="one">
                         <div className="litleholder">

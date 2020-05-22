@@ -1,4 +1,5 @@
-import React , {useEffect }  from 'react'
+import React , {useEffect , useState }  from 'react'
+import {Redirect} from 'react-router-dom'
 import Nav from '../components/dev/Navbar'
 import Main from '../components/dev/Main'
 import Skills from '../components/dev/Skills'
@@ -24,9 +25,16 @@ const Dev = (props) => {
         }
     }, [setLoad])
 
-
+    const ToTop = ()=> {
+        document.getElementById("Summary").scrollIntoView({ behavior : "smooth"})
+    }
+    const [redirect, setredirect] = useState(null)
+    const SwitchtoHome = () => {
+        setredirect("/")
+    }
     return (
-        <div className="DevPage" >
+        redirect ? <Redirect to={redirect}/>
+        :<div className="DevPage" >
             <Nav/>
             <Main/>
             <Skills/>
@@ -37,12 +45,12 @@ const Dev = (props) => {
                 <button className="Green">Contact Me</button>
             </div>
                 <div className="footer">
-                    <button>Back Home</button>
+                    <button onClick={SwitchtoHome}>Back Home</button>
                     <p>
                         This wesbsite was made by Mohamed Abdelmadjid Boudis
                         MIT License @2020 / find on github @badido18
                     </p>
-                    <button>Back to top</button>
+                    <button onClick={ToTop}>Back to top</button>
                 </div>
         </div>
     )
