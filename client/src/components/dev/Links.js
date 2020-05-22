@@ -11,15 +11,15 @@ const Links = () => {
     return (
         <div className="Container li" id="Links">
                 <div className="Links">
-                    <button  className="link">
+                    <button onClick={()=> window.open("https://www.hackerrank.com/badido18", "_blank")} className="link">
                         <img className="Linkogo" src={hkrlogo} alt=""/>
                         <img className="Linktxt" src={hkrtxt} alt=""/>
                     </button>
-                    <button className="link">
+                    <button onClick={()=> window.open("https://github.com/badido18", "_blank")} className="link">
                         <img className="Linkogo" src={gitlogo} alt=""/>
                         <img className="Linktxt" src={gittxt} alt=""/>
                     </button>
-                    <button className="link">
+                    <button onClick={()=> window.open("https://www.linkedin.com/in/badido18/", "_blank")} className="link">
                         <img className="Linkogo" src={Inlogo} alt=""/>
                         <img className="Linktxt" src={Intxt} alt=""/>
                     </button>
