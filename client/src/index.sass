@@ -12,6 +12,7 @@
 @import './Styles/Skills'
 @import './Styles/Links'
 @import './Styles/Projects'
+@import './Styles/Career'
 
 body
   margin : 0
@@ -78,58 +79,3 @@ code
     font-family : HackL 
     margin-left :  0
     margin-right :  0
-
-.Career
-  @include Contain()
-  width : 1200px
-  height : 100%
-  margin-bottom : 8%
-  display : flex
-  flex-direction : column 
-  align-items : top 
-  padding-top : 3%
-  padding-bottom : 3% 
-  font-size : 60% 
-  transition : 0.3s ease-in-out
-  *
-    transition : 0.3s ease-in-out
-  .accordion
-    width : 100%
-    .accordionbutton
-      width : 100%
-      height : 50px
-      background : $LightBlack
-      display : grid
-      grid-template-columns : 10% 10% 75% 5% 
-      border-top : solid  3px black
-      *
-        margin : auto
-      .tit
-        margin-left : 0
-      .ti
-        width : 100%
-        height : 100%  
-        display : flex
-        text-align : center
-        vertical-align : middle
-        background : $BlackBack
-      img
-        object-fit : cover
-        height : 30px 
-      &:hover
-        background : $BlackBack 
-        cursor : pointer
-    .accordpanel
-      transition : 0.3s ease-in-out
-      width : 100%
-      max-height : 0
-      margin : auto
-      background : $LightBlack
-      height : auto
-      overflow : hidden;
-      p
-        color : $border
-        width : 100%
-        line-height : 200% 
-        margin-left : 20%
-        font-size : 150% 
