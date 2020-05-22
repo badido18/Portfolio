@@ -6,6 +6,7 @@ import Skills from '../components/dev/Skills'
 import Projects from '../components/dev/Projects'
 import Career from '../components/dev/Career'
 import Links from '../components/dev/Links'
+import backvid from '../assets/vid/vid.mp4'
 const Dev = (props) => {
     const { setLoad } = props
     const transformNav = ()=>  document.getElementById("navbar").classList.add("navbarto");
@@ -52,6 +53,10 @@ const Dev = (props) => {
                     </p>
                     <button onClick={ToTop}>Back to top</button>
                 </div>
+            
+            <video className="backvid" loop autoPlay>
+                <source src={backvid} type="video/mp4"/>
+            </video>
         </div>
     )
 }
