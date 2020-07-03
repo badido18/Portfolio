@@ -3,6 +3,7 @@ import etic from '../../assets/imgs/LOGO ETIC BLANC.png'
 import esi from '../../assets/imgs/ESI.png'
 import shell from '../../assets/imgs/shellmates-8.png'
 import da from '../../assets/imgs/down-arrow.svg'
+import develo from '../../assets/imgs/developatic.png'
 const Career = () => {
     useEffect(() => {
             var acc = document.getElementsByClassName("accordionbutton");
@@ -50,7 +51,7 @@ const Career = () => {
                             <p>
                                 A Student club joined in 2017 being freshman i learned a lot of soft skills and team working, <br/>
                                 the club is centered to entrepreneurship and company topics , where a lot of events were <br/>
-                                organized every year ( checkout the <a href="http://                                                                etic-club.net" style={{"textDecoration" : "none" , "color" : "black"}}>website</a>)
+                                organized every year ( checkout the <a href="http://etic-club.net" style={{"textDecoration" : "none" , "color" : "black"}}>website</a>)
                                 being part of the organization <br/>
                                 i worked on Designs, Companies Contacts and much more !
                             </p>
@@ -69,6 +70,21 @@ const Career = () => {
                                 An incredible events from CTFs to sensibilization all around the universities<br/>
                                 Most skills learned were technical , also soft skills with team working and managing <br/>
                                 My Main Acitvity : Development and Design 
+                            </p>
+                        </div>
+                    </div>
+                    <div className="accordion">
+                        <div className="accordionbutton">
+                            <div className="ti"> <h1>2020</h1></div>
+                            <img src={develo} alt=""/>
+                            <h1 className="tit">Developatic</h1>
+                            <img src={da} alt=""/>
+                        </div>
+                        <div className="accordpanel">
+                            <p>
+                                As a Frontend Web Developer , Based in Algiers <br/>
+                                1 month Extensible Contract , <a href="http://www.developatic.com" style={{"textDecoration" : "none" , "color" : "black"}}>Developatic</a> <br/>
+                                Start : June 2020 / End  : July 2020
                             </p>
                         </div>
                     </div>
